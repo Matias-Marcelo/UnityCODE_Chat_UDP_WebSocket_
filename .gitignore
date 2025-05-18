@@ -1,0 +1,37 @@
+# Archivos y carpetas generadas por Unity
+Library/
+Temp/
+Logs/
+obj/
+UserSettings/
+
+# Archivos de compilación y caché
+*.csproj
+*.unitypackage
+*.suo
+*.pidb
+*.user
+*.bak
+*.ncb
+*.aps
+*.psess
+*.vsp
+
+# Configuraciones del editor
+.vscode/
+.idea/
+
+# Compilaciones y paquetes que pueden regenerarse
+Builds/
+ExportedObj/
+*.apk
+*.aab
+*.exe
+*.dll
+*.app
+*.unitypackage
+
+# Archivos innecesarios en GitHub
+Thumbs.db
+.DS_Store
+.vs/

@@ -1,0 +1,809 @@
+fileFormatVersion: 2
+guid: 05cb44b332ff7bf428c4c5eff18d9211
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: idle,run,jump_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 3
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 18}
+        - {x: -11, y: 11}
+        - {x: -11, y: -18}
+        - {x: 11, y: -18}
+        - {x: 11, y: 17}
+        - {x: 9, y: 18}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 774c33c6efc8939408e40a85827cb996
+      internalID: 1788384149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle,run,jump_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 3
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 18}
+        - {x: -11, y: 12}
+        - {x: -11, y: -18}
+        - {x: 11, y: -18}
+        - {x: 11, y: 17}
+        - {x: 10, y: 18}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a40efa468b567445bf2588b1b971030
+      internalID: 1092428011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle,run,jump_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 3
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7, y: 18}
+        - {x: -11, y: 12}
+        - {x: -11, y: -18}
+        - {x: 11, y: -18}
+        - {x: 11, y: 18}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6e1c32b08842f24ca5707ee0f4f4f4d
+      internalID: 1067049006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle,run,jump_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 3
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 17.5}
+        - {x: -11, y: 13.5}
+        - {x: -11, y: -17.5}
+        - {x: 8, y: -17.5}
+        - {x: 11, y: -12.5}
+        - {x: 11, y: 17.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27372ed3cb4e8bd4d826717ac9cc7267
+      internalID: -1280357941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle,run,jump_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 3
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5.5, y: 17.5}
+        - {x: -10.5, y: 9.5}
+        - {x: -10.5, y: -17.5}
+        - {x: 8.5, y: -17.5}
+        - {x: 10.5, y: -14.5}
+        - {x: 10.5, y: 15.5}
+        - {x: 9.5, y: 17.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0138fef7cdbe41d4fb7b7f6535d29118
+      internalID: -618230252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle,run,jump_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 3
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7.5, y: 17.5}
+        - {x: -10.5, y: 12.5}
+        - {x: -10.5, y: -17.5}
+        - {x: 8.5, y: -17.5}
+        - {x: 10.5, y: -12.5}
+        - {x: 10.5, y: 17.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0235b287e546df34788e62bd8a5d33bc
+      internalID: 394406597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle,run,jump_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 3
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4.5, y: 17.5}
+        - {x: -10.5, y: 14.5}
+        - {x: -10.5, y: -17.5}
+        - {x: 10.5, y: -17.5}
+        - {x: 10.5, y: 17.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0875bce41dd443d44a9f8c6a0632a80e
+      internalID: -1177785595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle,run,jump_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 3
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5.5, y: 17.5}
+        - {x: -10.5, y: 13.5}
+        - {x: -10.5, y: -17.5}
+        - {x: 8.5, y: -17.5}
+        - {x: 9.5, y: -15.5}
+        - {x: 10.5, y: -10.5}
+        - {x: 10.5, y: 17.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f30d500c373713e4293ad38e619eac2b
+      internalID: -1029654980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle,run,jump_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 3
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 18}
+        - {x: -11, y: 11}
+        - {x: -11, y: -18}
+        - {x: 11, y: -18}
+        - {x: 11, y: 17}
+        - {x: 9, y: 18}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b603d3df7983c489cb2915f906c7d8
+      internalID: 814774905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle,run,jump_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 4
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -6, y: 17.5}
+        - {x: -11, y: 12.5}
+        - {x: -11, y: -17.5}
+        - {x: 8, y: -17.5}
+        - {x: 11, y: -13.5}
+        - {x: 11, y: 16.5}
+        - {x: 10, y: 17.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b85afdc8de44cd44b6205dd3cda58de
+      internalID: 1301436426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle,run,jump_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 4
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 12.5, y: -2}
+        - {x: 9.5, y: -2}
+        - {x: 11.5, y: 11}
+        - {x: 6.5, y: 17}
+        - {x: -5.5, y: 17}
+        - {x: -12.5, y: 13}
+        - {x: -12.5, y: -17}
+        - {x: 12.5, y: -17}
+        - {x: 12.5, y: -15}
+        - {x: 8.5, y: -11}
+        - {x: 12.5, y: -7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97d8a574abf77264ca53ec18ebc176d1
+      internalID: 1718748813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle,run,jump_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 3
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 17}
+        - {x: -11, y: 14}
+        - {x: -11, y: -17}
+        - {x: 9, y: -17}
+        - {x: 11, y: -13}
+        - {x: 11, y: 17}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b3fdaf23026a447854ffc1c4441564
+      internalID: 1465237189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle,run,jump_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 3
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7.5, y: -17.5}
+        - {x: 8.5, y: -17.5}
+        - {x: 10.5, y: -16.5}
+        - {x: 10.5, y: 17.5}
+        - {x: -5.5, y: 17.5}
+        - {x: -10.5, y: 13.5}
+        - {x: -10.5, y: -8.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7143a1855be7ae4f97b92ad24267ecf
+      internalID: 1511577189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle,run,jump_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 4
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7.5, y: 17.5}
+        - {x: -10.5, y: 13.5}
+        - {x: -10.5, y: -17.5}
+        - {x: 10.5, y: -17.5}
+        - {x: 10.5, y: 16.5}
+        - {x: 9.5, y: 17.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e0b2584d8f08e48a789ada8409b274
+      internalID: 880558352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle,run,jump_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 4
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -6, y: 17}
+        - {x: -10, y: 14}
+        - {x: -10, y: -17}
+        - {x: 10, y: -17}
+        - {x: 10, y: 16}
+        - {x: 9, y: 17}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e2dfdbd45979d4cb83f84214601dc9
+      internalID: -1010756458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle,run,jump_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 3
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8.5, y: 17}
+        - {x: -9.5, y: 14}
+        - {x: -9.5, y: -14}
+        - {x: -6.5, y: -16}
+        - {x: -2.5, y: -17}
+        - {x: 8.5, y: -17}
+        - {x: 9.5, y: -14}
+        - {x: 9.5, y: 17}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d665f279e04942a438f16836edecc77d
+      internalID: 1149419686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle,run,jump_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 3
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 17.5}
+        - {x: -10, y: 13.5}
+        - {x: -10, y: -16.5}
+        - {x: -8, y: -17.5}
+        - {x: 2, y: -17.5}
+        - {x: 10, y: -10.5}
+        - {x: 10, y: 15.5}
+        - {x: 7, y: 17.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85cd7badbabbe4347b19432d2b0c18f9
+      internalID: -847420110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle,run,jump_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 3
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 17.5}
+        - {x: -12, y: 10.5}
+        - {x: -12, y: -17.5}
+        - {x: 11, y: -17.5}
+        - {x: 12, y: -12.5}
+        - {x: 12, y: 17.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e36a305227e684a884bb1c15d55a03
+      internalID: -1470151734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle,run,jump_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 4
+        width: 20
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 19}
+        - {x: -10, y: 13}
+        - {x: -10, y: -19}
+        - {x: 10, y: -19}
+        - {x: 10, y: 18}
+        - {x: 8, y: 19}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 271dec9325adb8f4981853cb285b3c80
+      internalID: -2115746945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle,run,jump_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 5
+        width: 23
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3.5, y: 19}
+        - {x: -11.5, y: 13}
+        - {x: -11.5, y: -19}
+        - {x: 11.5, y: -19}
+        - {x: 11.5, y: 17}
+        - {x: 10.5, y: 19}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fabe97b12d98694ea63990d1b983f82
+      internalID: -1827668381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle,run,jump_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 5
+        width: 23
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4.5, y: 19}
+        - {x: -11.5, y: 14}
+        - {x: -11.5, y: -19}
+        - {x: 11.5, y: -19}
+        - {x: 11.5, y: 16}
+        - {x: 8.5, y: 19}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a132212803d29e47bd451c29ac95c05
+      internalID: -741305364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle,run,jump_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 5
+        width: 23
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4.5, y: 19}
+        - {x: -11.5, y: 16}
+        - {x: -11.5, y: -19}
+        - {x: 11.5, y: -19}
+        - {x: 11.5, y: 19}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a5e9ddb58d11b4c9ece9fd5e849ed7
+      internalID: -833558050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle,run,jump_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 5
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 19}
+        - {x: -11, y: 11}
+        - {x: -11, y: -19}
+        - {x: 11, y: -19}
+        - {x: 11, y: 17}
+        - {x: 8, y: 19}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e162da288deaf48aea764c91906e29
+      internalID: 2134380489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle,run,jump_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 3
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -6.5, y: 16}
+        - {x: -10.5, y: 9}
+        - {x: -10.5, y: -16}
+        - {x: 9.5, y: -16}
+        - {x: 10.5, y: -15}
+        - {x: 10.5, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc0fb6c87d00c154c91147e8c54f6e7e
+      internalID: -2106817749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      idle,run,jump_sheet_0: 1788384149
+      idle,run,jump_sheet_1: 1092428011
+      idle,run,jump_sheet_10: 1718748813
+      idle,run,jump_sheet_11: 1465237189
+      idle,run,jump_sheet_12: 1511577189
+      idle,run,jump_sheet_13: 880558352
+      idle,run,jump_sheet_14: -1010756458
+      idle,run,jump_sheet_15: 1149419686
+      idle,run,jump_sheet_16: -847420110
+      idle,run,jump_sheet_17: -1470151734
+      idle,run,jump_sheet_18: -2115746945
+      idle,run,jump_sheet_19: -1827668381
+      idle,run,jump_sheet_2: 1067049006
+      idle,run,jump_sheet_20: -741305364
+      idle,run,jump_sheet_21: -833558050
+      idle,run,jump_sheet_22: 2134380489
+      idle,run,jump_sheet_23: -2106817749
+      idle,run,jump_sheet_3: -1280357941
+      idle,run,jump_sheet_4: -618230252
+      idle,run,jump_sheet_5: 394406597
+      idle,run,jump_sheet_6: -1177785595
+      idle,run,jump_sheet_7: -1029654980
+      idle,run,jump_sheet_8: 814774905
+      idle,run,jump_sheet_9: 1301436426
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
